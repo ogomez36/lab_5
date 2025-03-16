@@ -17,7 +17,7 @@
       }
 
       #experience_form input[type="text"],
-      input[type="email"] {
+      #experience_form input[type="email"] {
         width: 300px;
       }
 
@@ -57,15 +57,68 @@
         margin-left: auto;
         margin-right: auto;
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: 50px;
       }
 
       .row {
         display: flex;
+        margin-bottom: 20px;
       }
 
       .column {
         padding: 10px;
+      }
+
+      .column img {
+        border-radius: 50%;
+      }
+
+      nav a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav li {
+        list-style-type: none;
+
+        display: inline-block;
+        padding: 10px;
+      }
+
+      nav ul {
+        background-color: black;
+        margin: 0;
+        padding: 0;
+        text-align: right;
+      }
+
+      nav a:link {
+        color: #DCDCDC;
+      }
+
+      nav a:visited {
+        color: #DCDCDC;
+      }
+
+      nav a:hover {
+        color: white;
+      }
+
+      nav a:active {
+        color: white;
+      }
+
+      main {
+        /*border-width: 1px;
+        border-style: solid;
+        border-width: grey;*/
+
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+      }
+
+      footer {
+        text-align: center;
       }
     </style>
   </head>
@@ -79,6 +132,16 @@
         alt="Laguna Brava lake"
         title="Laguna Brava"
       />
+      <nav>
+        <ul>
+          <li>
+            <a href="#activities">Things to Do</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <h1>Explore Laguna Brava</h1>
     </header>
 
